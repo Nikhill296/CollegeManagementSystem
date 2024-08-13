@@ -9,6 +9,7 @@ import javax.security.auth.Subject;
 import org.modelmapper.ModelMapper;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springdoc.api.OpenApiResourceNotFoundException;
 import org.springframework.stereotype.Service;
 import org.springframework.ui.ModelMap;
 
@@ -18,6 +19,7 @@ import com.college.Repositories.SubjectsRepository;
 import com.college.Services.StudentService;
 import com.college.DTO.StudentsDTO;
 import com.college.DTO.SubjectsDTO;
+import com.college.Eeceptions.ResourceNotFoundException;
 import com.college.Entities.*;
 import lombok.RequiredArgsConstructor;
 
@@ -49,7 +51,8 @@ public class StudentServiceImpl implements StudentService {
 
 	@Override
 	public StudentsDTO getStudentInfo(Long studentId) {
-		Students student = studentRepo.findById(studentId).orElseThrow();
+		Students student = studentRepo.findById(studentId).orElseThrow(
+				() -> new ResourceNotFoundException( "Student not fountd withh id : "+studentId,studentId));
 		log.info("student admission >>> "+ student.getAdmissiom().getId());
 		return modelMapper.map(student, StudentsDTO.class);
 	}

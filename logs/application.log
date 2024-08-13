@@ -47958,3 +47958,493 @@ java.lang.StackOverflowError: null
 2024-08-11 17:02:33 [http-nio-8092-exec-1] INFO  c.c.Controller.CollegeController - ---------------- get added student ------------ 
 2024-08-11 17:02:34 [http-nio-8092-exec-1] DEBUG org.hibernate.SQL - select s1_0.id,a1_0.id,a1_0.fees,s1_0.name from students s1_0 left join admission_record a1_0 on s1_0.id=a1_0.id where s1_0.id=?
 2024-08-11 17:02:34 [http-nio-8092-exec-1] INFO  c.c.S.ServiceImpl.StudentServiceImpl - student admission >>> 2
+2024-08-12 19:42:26 [main] INFO  c.c.CollegeManagementV1Application - Starting CollegeManagementV1Application using Java 17.0.9 with PID 15808 (G:\CODE\CodingShuttleCode\projects\CollegeManagementV1\target\classes started by NIKHIL in G:\CODE\CodingShuttleCode\projects\CollegeManagementV1)
+2024-08-12 19:42:26 [main] INFO  c.c.CollegeManagementV1Application - No active profile set, falling back to 1 default profile: "default"
+2024-08-12 19:42:28 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-12 19:42:28 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 115 ms. Found 4 JPA repository interfaces.
+2024-08-12 19:42:30 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8092 (http)
+2024-08-12 19:42:30 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8092"]
+2024-08-12 19:42:30 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-08-12 19:42:30 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-12 19:42:30 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-08-12 19:42:30 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3175 ms
+2024-08-12 19:42:30 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-12 19:42:30 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-08-12 19:42:30 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-08-12 19:42:31 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-12 19:42:31 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-08-12 19:42:32 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@7fac18dc
+2024-08-12 19:42:32 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-08-12 19:42:34 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-12 19:42:35 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-12 19:42:36 [main] INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-08-12 19:42:38 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-12 19:42:38 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8092"]
+2024-08-12 19:42:39 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8092 (http) with context path '/'
+2024-08-12 19:42:39 [main] INFO  c.c.CollegeManagementV1Application - Started CollegeManagementV1Application in 13.014 seconds (process running for 14.589)
+2024-08-12 19:44:03 [http-nio-8092-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-12 19:44:03 [http-nio-8092-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-08-12 19:44:03 [http-nio-8092-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+2024-08-12 19:44:03 [http-nio-8092-exec-1] INFO  c.c.Controller.CollegeController - ---------------- get added student ------------ 
+2024-08-12 19:44:03 [http-nio-8092-exec-1] DEBUG org.hibernate.SQL - select s1_0.id,a1_0.id,a1_0.fees,s1_0.name from students s1_0 left join admission_record a1_0 on s1_0.id=a1_0.id where s1_0.id=?
+2024-08-12 19:44:03 [http-nio-8092-exec-1] INFO  c.c.S.ServiceImpl.StudentServiceImpl - student admission >>> 2
+2024-08-12 20:00:37 [main] INFO  c.c.CollegeManagementV1Application - Starting CollegeManagementV1Application using Java 17.0.9 with PID 17252 (G:\CODE\CodingShuttleCode\projects\CollegeManagementV1\target\classes started by NIKHIL in G:\CODE\CodingShuttleCode\projects\CollegeManagementV1)
+2024-08-12 20:00:37 [main] INFO  c.c.CollegeManagementV1Application - No active profile set, falling back to 1 default profile: "default"
+2024-08-12 20:00:39 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-12 20:00:39 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 142 ms. Found 4 JPA repository interfaces.
+2024-08-12 20:00:41 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8092 (http)
+2024-08-12 20:00:41 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8092"]
+2024-08-12 20:00:41 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-08-12 20:00:41 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-12 20:00:41 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-08-12 20:00:41 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3709 ms
+2024-08-12 20:00:41 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-12 20:00:41 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-08-12 20:00:42 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-08-12 20:00:42 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-12 20:00:42 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-08-12 20:00:43 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@1e0294a7
+2024-08-12 20:00:43 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-08-12 20:00:47 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-12 20:00:47 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-12 20:00:49 [main] INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-08-12 20:00:51 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-12 20:00:53 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8092"]
+2024-08-12 20:00:53 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8092 (http) with context path '/'
+2024-08-12 20:00:54 [main] INFO  c.c.CollegeManagementV1Application - Started CollegeManagementV1Application in 17.33 seconds (process running for 18.84)
+2024-08-12 20:01:57 [http-nio-8092-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-12 20:01:57 [http-nio-8092-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-08-12 20:01:57 [http-nio-8092-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+2024-08-12 20:01:58 [http-nio-8092-exec-1] INFO  o.s.api.AbstractOpenApiResource - Init duration for springdoc-openapi is: 954 ms
+2024-08-12 20:04:54 [http-nio-8092-exec-6] INFO  c.c.Controller.CollegeController - ---------------- get all student ------------ 
+2024-08-12 20:04:54 [http-nio-8092-exec-6] INFO  c.c.S.ServiceImpl.StudentServiceImpl -  in getAllStudentInfo method to get all students 
+2024-08-12 20:04:54 [http-nio-8092-exec-6] DEBUG org.hibernate.SQL - select s1_0.id,s1_0.name from students s1_0
+2024-08-12 20:04:54 [http-nio-8092-exec-6] DEBUG org.hibernate.SQL - select ar1_0.id,ar1_0.fees,s1_0.id,s1_0.name from admission_record ar1_0 left join students s1_0 on s1_0.id=ar1_0.id where ar1_0.id=?
+2024-08-12 20:04:54 [http-nio-8092-exec-6] DEBUG org.hibernate.SQL - select ar1_0.id,ar1_0.fees,s1_0.id,s1_0.name from admission_record ar1_0 left join students s1_0 on s1_0.id=ar1_0.id where ar1_0.id=?
+2024-08-12 20:04:54 [http-nio-8092-exec-6] DEBUG org.hibernate.SQL - select ar1_0.id,ar1_0.fees,s1_0.id,s1_0.name from admission_record ar1_0 left join students s1_0 on s1_0.id=ar1_0.id where ar1_0.id=?
+2024-08-12 20:04:54 [http-nio-8092-exec-6] DEBUG org.hibernate.SQL - select ar1_0.id,ar1_0.fees,s1_0.id,s1_0.name from admission_record ar1_0 left join students s1_0 on s1_0.id=ar1_0.id where ar1_0.id=?
+2024-08-12 20:04:54 [http-nio-8092-exec-6] DEBUG org.hibernate.SQL - select ar1_0.id,ar1_0.fees,s1_0.id,s1_0.name from admission_record ar1_0 left join students s1_0 on s1_0.id=ar1_0.id where ar1_0.id=?
+2024-08-12 20:04:54 [http-nio-8092-exec-6] DEBUG org.hibernate.SQL - select ar1_0.id,ar1_0.fees,s1_0.id,s1_0.name from admission_record ar1_0 left join students s1_0 on s1_0.id=ar1_0.id where ar1_0.id=?
+2024-08-12 20:04:54 [http-nio-8092-exec-6] DEBUG org.hibernate.SQL - select p1_0.students_id,p1_1.id,p1_1.title from stusents_professors p1_0 join professors p1_1 on p1_1.id=p1_0.professors_id where p1_0.students_id=?
+2024-08-12 20:04:54 [http-nio-8092-exec-6] INFO  c.c.S.ServiceImpl.StudentServiceImpl -  students 1 >>> []
+2024-08-12 20:04:54 [http-nio-8092-exec-6] INFO  c.c.S.ServiceImpl.StudentServiceImpl - Dto ::: StudentsDTO(id=1, name=Student 1, professorsDTO=null, subjectsDTO=null, admissiomDto=null)
+2024-08-12 20:04:54 [http-nio-8092-exec-6] INFO  c.c.S.ServiceImpl.StudentServiceImpl - Dto ::: StudentsDTO(id=2, name=Student 2, professorsDTO=null, subjectsDTO=null, admissiomDto=null)
+2024-08-12 20:04:54 [http-nio-8092-exec-6] INFO  c.c.S.ServiceImpl.StudentServiceImpl - Dto ::: StudentsDTO(id=3, name=Student 3, professorsDTO=null, subjectsDTO=null, admissiomDto=null)
+2024-08-12 20:04:54 [http-nio-8092-exec-6] INFO  c.c.S.ServiceImpl.StudentServiceImpl - Dto ::: StudentsDTO(id=4, name=Student 4, professorsDTO=null, subjectsDTO=null, admissiomDto=null)
+2024-08-12 20:04:54 [http-nio-8092-exec-6] INFO  c.c.S.ServiceImpl.StudentServiceImpl - Dto ::: StudentsDTO(id=5, name=Student 5, professorsDTO=null, subjectsDTO=null, admissiomDto=null)
+2024-08-12 20:04:54 [http-nio-8092-exec-6] INFO  c.c.S.ServiceImpl.StudentServiceImpl - Dto ::: StudentsDTO(id=6, name=Student 6, professorsDTO=null, subjectsDTO=null, admissiomDto=null)
+2024-08-12 20:06:03 [http-nio-8092-exec-1] INFO  c.c.Controller.CollegeController - ---------------- get added student ------------ 
+2024-08-12 20:06:03 [http-nio-8092-exec-1] DEBUG org.hibernate.SQL - select s1_0.id,a1_0.id,a1_0.fees,s1_0.name from students s1_0 left join admission_record a1_0 on s1_0.id=a1_0.id where s1_0.id=?
+2024-08-12 20:06:03 [http-nio-8092-exec-1] INFO  c.c.S.ServiceImpl.StudentServiceImpl - student admission >>> 1
+2024-08-12 20:06:10 [http-nio-8092-exec-2] INFO  c.c.Controller.CollegeController - ---------------- get added student ------------ 
+2024-08-12 20:06:10 [http-nio-8092-exec-2] DEBUG org.hibernate.SQL - select s1_0.id,a1_0.id,a1_0.fees,s1_0.name from students s1_0 left join admission_record a1_0 on s1_0.id=a1_0.id where s1_0.id=?
+2024-08-12 20:06:10 [http-nio-8092-exec-2] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.util.NoSuchElementException: No value present] with root cause
+java.util.NoSuchElementException: No value present
+	at java.base/java.util.Optional.orElseThrow(Optional.java:377)
+	at com.college.Service.ServiceImpl.StudentServiceImpl.getStudentInfo(StudentServiceImpl.java:52)
+	at com.college.Controller.CollegeController.getStudentInfo(CollegeController.java:81)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:255)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:188)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:950)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:855)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1088)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:978)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:389)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:904)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2024-08-12 20:06:27 [http-nio-8092-exec-3] INFO  c.c.Controller.CollegeController - ---------------- get all Professors ------------ 
+2024-08-12 20:06:27 [http-nio-8092-exec-3] DEBUG org.hibernate.SQL - select p1_0.id,p1_0.title from professors p1_0
+2024-08-12 20:07:03 [http-nio-8092-exec-5] INFO  c.college.Controller.HomeController - ------ in last attempt of welcome --------
+2024-08-12 20:58:39 [main] INFO  c.c.CollegeManagementV1Application - Starting CollegeManagementV1Application using Java 17.0.9 with PID 256 (G:\CODE\CodingShuttleCode\projects\CollegeManagementV1\target\classes started by NIKHIL in G:\CODE\CodingShuttleCode\projects\CollegeManagementV1)
+2024-08-12 20:58:39 [main] INFO  c.c.CollegeManagementV1Application - No active profile set, falling back to 1 default profile: "default"
+2024-08-12 20:58:42 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-12 20:58:42 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 146 ms. Found 4 JPA repository interfaces.
+2024-08-12 20:58:43 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8092 (http)
+2024-08-12 20:58:43 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8092"]
+2024-08-12 20:58:43 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-08-12 20:58:43 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-12 20:58:44 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-08-12 20:58:44 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 4816 ms
+2024-08-12 20:58:44 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-12 20:58:44 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-08-12 20:58:45 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-08-12 20:58:45 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-12 20:58:45 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-08-12 20:58:46 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@17003497
+2024-08-12 20:58:46 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-08-12 20:58:49 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-12 20:58:49 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-12 20:58:50 [main] INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-08-12 20:58:53 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-12 20:58:54 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8092"]
+2024-08-12 20:58:54 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8092 (http) with context path '/'
+2024-08-12 20:58:54 [main] INFO  c.c.CollegeManagementV1Application - Started CollegeManagementV1Application in 16.666 seconds (process running for 18.309)
+2024-08-12 20:59:07 [http-nio-8092-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-12 20:59:07 [http-nio-8092-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-08-12 20:59:07 [http-nio-8092-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2024-08-12 20:59:07 [http-nio-8092-exec-2] INFO  c.college.Controller.HomeController - ------ printing users of drink water API --------
+2024-08-12 20:59:25 [http-nio-8092-exec-4] INFO  c.college.Controller.HomeController - ------ printing users of drink water API --------
+2024-08-12 20:59:38 [http-nio-8092-exec-5] INFO  c.college.Controller.HomeController - ------ printing users of drink water API --------
+2024-08-12 21:01:24 [main] INFO  c.c.CollegeManagementV1Application - Starting CollegeManagementV1Application using Java 17.0.9 with PID 9244 (G:\CODE\CodingShuttleCode\projects\CollegeManagementV1\target\classes started by NIKHIL in G:\CODE\CodingShuttleCode\projects\CollegeManagementV1)
+2024-08-12 21:01:24 [main] INFO  c.c.CollegeManagementV1Application - No active profile set, falling back to 1 default profile: "default"
+2024-08-12 21:01:26 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-12 21:01:26 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 144 ms. Found 4 JPA repository interfaces.
+2024-08-12 21:01:27 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8092 (http)
+2024-08-12 21:01:27 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8092"]
+2024-08-12 21:01:27 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-08-12 21:01:27 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-12 21:01:28 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-08-12 21:01:28 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3505 ms
+2024-08-12 21:01:28 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-12 21:01:28 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-08-12 21:01:28 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-08-12 21:01:29 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-12 21:01:29 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-08-12 21:01:29 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@2335aef2
+2024-08-12 21:01:29 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-08-12 21:01:31 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-12 21:01:32 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-12 21:01:32 [main] INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-08-12 21:01:34 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'homeController' defined in file [G:\CODE\CodingShuttleCode\projects\CollegeManagementV1\target\classes\com\college\Controller\HomeController.class]: Unsatisfied dependency expressed through constructor parameter 0: No qualifying bean of type 'com.college.Services.PrintUsersAPI' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2024-08-12 21:01:34 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-08-12 21:01:34 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-08-12 21:01:34 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-08-12 21:01:34 [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2024-08-12 21:01:34 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-08-12 21:01:34 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of constructor in com.college.Controller.HomeController required a bean of type 'com.college.Services.PrintUsersAPI' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.college.Services.PrintUsersAPI' in your configuration.
+
+2024-08-12 21:01:58 [main] INFO  c.c.CollegeManagementV1Application - Starting CollegeManagementV1Application using Java 17.0.9 with PID 10368 (G:\CODE\CodingShuttleCode\projects\CollegeManagementV1\target\classes started by NIKHIL in G:\CODE\CodingShuttleCode\projects\CollegeManagementV1)
+2024-08-12 21:01:58 [main] INFO  c.c.CollegeManagementV1Application - No active profile set, falling back to 1 default profile: "default"
+2024-08-12 21:02:00 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-12 21:02:00 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 140 ms. Found 4 JPA repository interfaces.
+2024-08-12 21:02:01 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8092 (http)
+2024-08-12 21:02:01 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8092"]
+2024-08-12 21:02:01 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-08-12 21:02:01 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-12 21:02:01 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-08-12 21:02:01 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3436 ms
+2024-08-12 21:02:02 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-12 21:02:02 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-08-12 21:02:02 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-08-12 21:02:03 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-12 21:02:03 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-08-12 21:02:03 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@21a9f95b
+2024-08-12 21:02:03 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-08-12 21:02:06 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-12 21:02:06 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-12 21:02:07 [main] INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-08-12 21:02:09 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-12 21:02:09 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8092"]
+2024-08-12 21:02:09 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8092 (http) with context path '/'
+2024-08-12 21:02:09 [main] INFO  c.c.CollegeManagementV1Application - Started CollegeManagementV1Application in 12.613 seconds (process running for 13.966)
+2024-08-12 21:02:18 [http-nio-8092-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-12 21:02:18 [http-nio-8092-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-08-12 21:02:18 [http-nio-8092-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+2024-08-12 21:02:18 [http-nio-8092-exec-2] INFO  c.college.Controller.HomeController - ------ printing users of drink water API --------
+2024-08-12 21:02:19 [http-nio-8092-exec-2] INFO  c.c.S.ServiceImpl.PrintUsersApiImpl -  the users are [UserDetailsDto(user_id=452, user_name=Prince, isd_code=91, mob_number=7057728663, email_id=nikashinde663@gmail.com, gender=M, age=25, user_creation_date=null, active_user=Y, modified_date=null, birth_date=29-06-1999), UserDetailsDto(user_id=456, user_name=Prince, isd_code=91, mob_number=7057728668, email_id=nik663@gmail.com, gender=M, age=25, user_creation_date=null, active_user=N, modified_date=null, birth_date=22-06-2000), UserDetailsDto(user_id=457, user_name=Indra jeet, isd_code=91, mob_number=9898656145, email_id=Shubhamaaa@gmail.com, gender=M, age=29, user_creation_date=null, active_user=Y, modified_date=2024-06-16T16:18:00.159, birth_date=22-06-1998), UserDetailsDto(user_id=458, user_name=Indra jeet, isd_code=91, mob_number=9898656565, email_id=Indraaaaaaa@gmail.com, gender=M, age=29, user_creation_date=null, active_user=Y, modified_date=2024-06-16T16:13:46.401, birth_date=22-08-1998), UserDetailsDto(user_id=952, user_name=Akshay, isd_code=91, mob_number=865982176122, email_id=akshayDigital@gmail.com, gender=M, age=24, user_creation_date=null, active_user=Y, modified_date=2024-06-19T22:28:46.124, birth_date=22-06-1998), UserDetailsDto(user_id=954, user_name=Akshay, isd_code=91, mob_number=4585446122, email_id=akshayDigitgmailcom, gender=M, age=24, user_creation_date=null, active_user=Y, modified_date=2024-06-19T22:29:59.809, birth_date=22-06-1998), UserDetailsDto(user_id=956, user_name=Akshay, isd_code=91, mob_number=4885446122, email_id=akshayDtgmailcom, gender=M, age=24, user_creation_date=null, active_user=Y, modified_date=2024-06-19T22:30:40.157, birth_date=22-06-1998), UserDetailsDto(user_id=957, user_name=ay, isd_code=91, mob_number=4885436122, email_id=akshayDtgmcom, gender=M, age=24, user_creation_date=null, active_user=Y, modified_date=2024-06-19T22:31:14.504, birth_date=22-06-1998), UserDetailsDto(user_id=1002, user_name=y254T, isd_code=91, mob_number=4885436120, email_id=akshayDt@gom.com, gender=M, age=24, user_creation_date=2024-06-19T23:23:45.588, active_user=Y, modified_date=2024-06-19T23:23:45.588, birth_date=22-06-1998), UserDetailsDto(user_id=1052, user_name=yashhh, isd_code=91, mob_number=4545454545, email_id=akshayDtgomjkk@gmail.com, gender=M, age=24, user_creation_date=2024-06-19T22:55:08.596, active_user=Y, modified_date=2024-06-19T22:55:08.596, birth_date=22-06-1998), UserDetailsDto(user_id=1202, user_name=subodh, isd_code=91, mob_number=9856485740, email_id=subodhk@mail.com, gender=M, age=24, user_creation_date=2024-06-19T23:19:09.175, active_user=Y, modified_date=2024-06-19T23:19:09.175, birth_date=22-06-1998), UserDetailsDto(user_id=1205, user_name=y254T, isd_code=91, mob_number=4885438880, email_id=akshayDt@Com.com, gender=M, age=24, user_creation_date=2024-06-19T23:21:02.227, active_user=Y, modified_date=2024-06-19T23:26:43.232, birth_date=22-06-1998), UserDetailsDto(user_id=1252, user_name=Mahendra, isd_code=91, mob_number=9876543210, email_id=teraBoxWala@gmail.com, gender=M, age=24, user_creation_date=null, active_user=Y, modified_date=2024-06-20T00:53:20.268, birth_date=01-09-1997), UserDetailsDto(user_id=1302, user_name=Mahendra, isd_code=91, mob_number=5485958547, email_id=karjatKAr@gmail.com, gender=M, age=24, user_creation_date=null, active_user=Y, modified_date=2024-06-20T00:57:28.728, birth_date=01-09-1997), UserDetailsDto(user_id=1352, user_name=Mahendra, isd_code=91, mob_number=5459888547, email_id=karjatr@gmail.com, gender=M, age=24, user_creation_date=null, active_user=Y, modified_date=2024-06-20T00:59:32.394, birth_date=01-09-1997), UserDetailsDto(user_id=1402, user_name=Mahendra, isd_code=91, mob_number=9998888547, email_id=jungali@gmail.com, gender=M, age=24, user_creation_date=2024-06-20T01:06:15.457800, active_user=Y, modified_date=2024-06-20T01:06:15.468, birth_date=01-09-1997), UserDetailsDto(user_id=1553, user_name=Raj Shaho, isd_code=91, mob_number=9448877547, email_id=Tharkiiii@gmail.com, gender=M, age=24, user_creation_date=2024-06-22T21:19:25.573921, active_user=Y, modified_date=2024-06-22T21:19:25.578, birth_date=11-03-1997), UserDetailsDto(user_id=1502, user_name=Raj Shaho, isd_code=91, mob_number=9998877547, email_id=Tharkiiiii@gmail.com, gender=M, age=24, user_creation_date=2024-06-22T21:17:33.924517, active_user=Y, modified_date=2024-06-22T21:17:33.937, birth_date=11-03-1997), UserDetailsDto(user_id=1602, user_name=Raj Shaho, isd_code=91, mob_number=2448877547, email_id=Tharkiii@gmail.com, gender=M, age=24, user_creation_date=2024-06-22T22:21:58.082592, active_user=Y, modified_date=2024-06-22T22:21:58.114, birth_date=11-03-1997), UserDetailsDto(user_id=1652, user_name= builder, isd_code=91, mob_number=2348877547, email_id=MahaTharkiii@gmail.com, gender=M, age=24, user_creation_date=2024-06-22T22:27:11.878335, active_user=Y, modified_date=2024-06-22T22:27:11.889, birth_date=11-03-1997), UserDetailsDto(user_id=1702, user_name= builder22, isd_code=91, mob_number=2348871047, email_id=MahaTkiiiBuider@gmail.com, gender=M, age=24, user_creation_date=2024-06-24T20:15:34.791815, active_user=N, modified_date=2024-06-24T20:18:00.399, birth_date=11-04-1997), UserDetailsDto(user_id=1952, user_name= builder22, isd_code=2, mob_number=9828870047, email_id=Password@g.com, gender=M, age=24, user_creation_date=2024-07-16T13:47:55.165378, active_user=Y, modified_date=2024-07-16T13:47:55.381, birth_date=11-03-1997)]
+2024-08-12 21:06:37 [main] INFO  c.c.CollegeManagementV1Application - Starting CollegeManagementV1Application using Java 17.0.9 with PID 16984 (G:\CODE\CodingShuttleCode\projects\CollegeManagementV1\target\classes started by NIKHIL in G:\CODE\CodingShuttleCode\projects\CollegeManagementV1)
+2024-08-12 21:06:37 [main] INFO  c.c.CollegeManagementV1Application - No active profile set, falling back to 1 default profile: "default"
+2024-08-12 21:06:39 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-12 21:06:39 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 157 ms. Found 4 JPA repository interfaces.
+2024-08-12 21:06:41 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8092 (http)
+2024-08-12 21:06:41 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8092"]
+2024-08-12 21:06:41 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-08-12 21:06:41 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-12 21:06:42 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-08-12 21:06:42 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 4228 ms
+2024-08-12 21:06:42 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-12 21:06:43 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-08-12 21:06:43 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-08-12 21:06:44 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-12 21:06:44 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-08-12 21:06:44 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@69499c6f
+2024-08-12 21:06:44 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-08-12 21:06:49 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-12 21:06:49 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-12 21:06:51 [main] INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-08-12 21:06:54 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-12 21:06:56 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8092"]
+2024-08-12 21:06:56 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2024-08-12 21:06:56 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-08-12 21:06:56 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-08-12 21:06:56 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-08-12 21:06:56 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-08-12 21:06:56 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8092 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8092 or configure this application to listen on another port.
+
+2024-08-12 21:07:52 [main] INFO  c.c.CollegeManagementV1Application - Starting CollegeManagementV1Application using Java 17.0.9 with PID 15404 (G:\CODE\CodingShuttleCode\projects\CollegeManagementV1\target\classes started by NIKHIL in G:\CODE\CodingShuttleCode\projects\CollegeManagementV1)
+2024-08-12 21:07:52 [main] INFO  c.c.CollegeManagementV1Application - No active profile set, falling back to 1 default profile: "default"
+2024-08-12 21:07:55 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-12 21:07:55 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 143 ms. Found 4 JPA repository interfaces.
+2024-08-12 21:07:57 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8091 (http)
+2024-08-12 21:07:57 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8091"]
+2024-08-12 21:07:57 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-08-12 21:07:57 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-12 21:07:57 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-08-12 21:07:57 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 4256 ms
+2024-08-12 21:07:57 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-12 21:07:58 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-08-12 21:07:58 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-08-12 21:07:59 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-12 21:07:59 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-08-12 21:07:59 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@5fbae40
+2024-08-12 21:08:00 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-08-12 21:08:02 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-12 21:08:03 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-12 21:08:04 [main] INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-08-12 21:08:07 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-12 21:08:08 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8091"]
+2024-08-12 21:08:08 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8091 (http) with context path '/'
+2024-08-12 21:08:08 [main] INFO  c.c.CollegeManagementV1Application - Started CollegeManagementV1Application in 16.559 seconds (process running for 17.916)
+2024-08-12 21:08:14 [http-nio-8091-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-12 21:08:14 [http-nio-8091-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-08-12 21:08:14 [http-nio-8091-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 9 ms
+2024-08-12 21:08:14 [http-nio-8091-exec-1] INFO  c.college.Controller.HomeController - ------ printing users of drink water API --------
+2024-08-12 21:08:14 [http-nio-8091-exec-1] INFO  c.c.S.ServiceImpl.PrintUsersApiImpl -  the users are [UserDetailsDto(user_id=452, user_name=Prince, isd_code=91, mob_number=7057728663, email_id=nikashinde663@gmail.com, gender=M, age=25, user_creation_date=null, active_user=Y, modified_date=null, birth_date=29-06-1999), UserDetailsDto(user_id=456, user_name=Prince, isd_code=91, mob_number=7057728668, email_id=nik663@gmail.com, gender=M, age=25, user_creation_date=null, active_user=N, modified_date=null, birth_date=22-06-2000), UserDetailsDto(user_id=457, user_name=Indra jeet, isd_code=91, mob_number=9898656145, email_id=Shubhamaaa@gmail.com, gender=M, age=29, user_creation_date=null, active_user=Y, modified_date=2024-06-16T16:18:00.159, birth_date=22-06-1998), UserDetailsDto(user_id=458, user_name=Indra jeet, isd_code=91, mob_number=9898656565, email_id=Indraaaaaaa@gmail.com, gender=M, age=29, user_creation_date=null, active_user=Y, modified_date=2024-06-16T16:13:46.401, birth_date=22-08-1998), UserDetailsDto(user_id=952, user_name=Akshay, isd_code=91, mob_number=865982176122, email_id=akshayDigital@gmail.com, gender=M, age=24, user_creation_date=null, active_user=Y, modified_date=2024-06-19T22:28:46.124, birth_date=22-06-1998), UserDetailsDto(user_id=954, user_name=Akshay, isd_code=91, mob_number=4585446122, email_id=akshayDigitgmailcom, gender=M, age=24, user_creation_date=null, active_user=Y, modified_date=2024-06-19T22:29:59.809, birth_date=22-06-1998), UserDetailsDto(user_id=956, user_name=Akshay, isd_code=91, mob_number=4885446122, email_id=akshayDtgmailcom, gender=M, age=24, user_creation_date=null, active_user=Y, modified_date=2024-06-19T22:30:40.157, birth_date=22-06-1998), UserDetailsDto(user_id=957, user_name=ay, isd_code=91, mob_number=4885436122, email_id=akshayDtgmcom, gender=M, age=24, user_creation_date=null, active_user=Y, modified_date=2024-06-19T22:31:14.504, birth_date=22-06-1998), UserDetailsDto(user_id=1002, user_name=y254T, isd_code=91, mob_number=4885436120, email_id=akshayDt@gom.com, gender=M, age=24, user_creation_date=2024-06-19T23:23:45.588, active_user=Y, modified_date=2024-06-19T23:23:45.588, birth_date=22-06-1998), UserDetailsDto(user_id=1052, user_name=yashhh, isd_code=91, mob_number=4545454545, email_id=akshayDtgomjkk@gmail.com, gender=M, age=24, user_creation_date=2024-06-19T22:55:08.596, active_user=Y, modified_date=2024-06-19T22:55:08.596, birth_date=22-06-1998), UserDetailsDto(user_id=1202, user_name=subodh, isd_code=91, mob_number=9856485740, email_id=subodhk@mail.com, gender=M, age=24, user_creation_date=2024-06-19T23:19:09.175, active_user=Y, modified_date=2024-06-19T23:19:09.175, birth_date=22-06-1998), UserDetailsDto(user_id=1205, user_name=y254T, isd_code=91, mob_number=4885438880, email_id=akshayDt@Com.com, gender=M, age=24, user_creation_date=2024-06-19T23:21:02.227, active_user=Y, modified_date=2024-06-19T23:26:43.232, birth_date=22-06-1998), UserDetailsDto(user_id=1252, user_name=Mahendra, isd_code=91, mob_number=9876543210, email_id=teraBoxWala@gmail.com, gender=M, age=24, user_creation_date=null, active_user=Y, modified_date=2024-06-20T00:53:20.268, birth_date=01-09-1997), UserDetailsDto(user_id=1302, user_name=Mahendra, isd_code=91, mob_number=5485958547, email_id=karjatKAr@gmail.com, gender=M, age=24, user_creation_date=null, active_user=Y, modified_date=2024-06-20T00:57:28.728, birth_date=01-09-1997), UserDetailsDto(user_id=1352, user_name=Mahendra, isd_code=91, mob_number=5459888547, email_id=karjatr@gmail.com, gender=M, age=24, user_creation_date=null, active_user=Y, modified_date=2024-06-20T00:59:32.394, birth_date=01-09-1997), UserDetailsDto(user_id=1402, user_name=Mahendra, isd_code=91, mob_number=9998888547, email_id=jungali@gmail.com, gender=M, age=24, user_creation_date=2024-06-20T01:06:15.457800, active_user=Y, modified_date=2024-06-20T01:06:15.468, birth_date=01-09-1997), UserDetailsDto(user_id=1553, user_name=Raj Shaho, isd_code=91, mob_number=9448877547, email_id=Tharkiiii@gmail.com, gender=M, age=24, user_creation_date=2024-06-22T21:19:25.573921, active_user=Y, modified_date=2024-06-22T21:19:25.578, birth_date=11-03-1997), UserDetailsDto(user_id=1502, user_name=Raj Shaho, isd_code=91, mob_number=9998877547, email_id=Tharkiiiii@gmail.com, gender=M, age=24, user_creation_date=2024-06-22T21:17:33.924517, active_user=Y, modified_date=2024-06-22T21:17:33.937, birth_date=11-03-1997), UserDetailsDto(user_id=1602, user_name=Raj Shaho, isd_code=91, mob_number=2448877547, email_id=Tharkiii@gmail.com, gender=M, age=24, user_creation_date=2024-06-22T22:21:58.082592, active_user=Y, modified_date=2024-06-22T22:21:58.114, birth_date=11-03-1997), UserDetailsDto(user_id=1652, user_name= builder, isd_code=91, mob_number=2348877547, email_id=MahaTharkiii@gmail.com, gender=M, age=24, user_creation_date=2024-06-22T22:27:11.878335, active_user=Y, modified_date=2024-06-22T22:27:11.889, birth_date=11-03-1997), UserDetailsDto(user_id=1702, user_name= builder22, isd_code=91, mob_number=2348871047, email_id=MahaTkiiiBuider@gmail.com, gender=M, age=24, user_creation_date=2024-06-24T20:15:34.791815, active_user=N, modified_date=2024-06-24T20:18:00.399, birth_date=11-04-1997), UserDetailsDto(user_id=1952, user_name= builder22, isd_code=2, mob_number=9828870047, email_id=Password@g.com, gender=M, age=24, user_creation_date=2024-07-16T13:47:55.165378, active_user=Y, modified_date=2024-07-16T13:47:55.381, birth_date=11-03-1997)]
+2024-08-12 21:19:02 [http-nio-8092-exec-6] INFO  c.c.Controller.CollegeController - ---------------- get added student ------------ 
+2024-08-12 21:19:02 [http-nio-8092-exec-6] DEBUG org.hibernate.SQL - select s1_0.id,a1_0.id,a1_0.fees,s1_0.name from students s1_0 left join admission_record a1_0 on s1_0.id=a1_0.id where s1_0.id=?
+2024-08-12 21:19:02 [http-nio-8092-exec-6] INFO  c.c.S.ServiceImpl.StudentServiceImpl - student admission >>> 2
+2024-08-12 21:19:10 [http-nio-8092-exec-5] INFO  c.c.Controller.CollegeController - ---------------- get added student ------------ 
+2024-08-12 21:19:10 [http-nio-8092-exec-5] DEBUG org.hibernate.SQL - select s1_0.id,a1_0.id,a1_0.fees,s1_0.name from students s1_0 left join admission_record a1_0 on s1_0.id=a1_0.id where s1_0.id=?
+2024-08-12 21:19:10 [http-nio-8092-exec-5] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.util.NoSuchElementException: No value present] with root cause
+java.util.NoSuchElementException: No value present
+	at java.base/java.util.Optional.orElseThrow(Optional.java:377)
+	at com.college.Service.ServiceImpl.StudentServiceImpl.getStudentInfo(StudentServiceImpl.java:52)
+	at com.college.Controller.CollegeController.getStudentInfo(CollegeController.java:81)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:255)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:188)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:950)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:855)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1088)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:978)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:389)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:904)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2024-08-12 21:44:48 [main] INFO  c.c.CollegeManagementV1Application - Starting CollegeManagementV1Application using Java 17.0.9 with PID 10660 (G:\CODE\CodingShuttleCode\projects\CollegeManagementV1\target\classes started by NIKHIL in G:\CODE\CodingShuttleCode\projects\CollegeManagementV1)
+2024-08-12 21:44:48 [main] INFO  c.c.CollegeManagementV1Application - No active profile set, falling back to 1 default profile: "default"
+2024-08-12 21:44:50 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-12 21:44:50 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 165 ms. Found 4 JPA repository interfaces.
+2024-08-12 21:44:52 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8091 (http)
+2024-08-12 21:44:52 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8091"]
+2024-08-12 21:44:52 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-08-12 21:44:52 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-12 21:44:52 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-08-12 21:44:52 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 4421 ms
+2024-08-12 21:44:53 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-12 21:44:53 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-08-12 21:44:53 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-08-12 21:44:54 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-12 21:44:54 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-08-12 21:44:54 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@709d6de5
+2024-08-12 21:44:54 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-08-12 21:44:57 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-12 21:44:57 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-12 21:44:58 [main] INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-08-12 21:45:00 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-12 21:45:01 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8091"]
+2024-08-12 21:45:01 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2024-08-12 21:45:01 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-08-12 21:45:01 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-08-12 21:45:01 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-08-12 21:45:01 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-08-12 21:45:01 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8091 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8091 or configure this application to listen on another port.
+
+2024-08-12 21:45:34 [main] INFO  c.c.CollegeManagementV1Application - Starting CollegeManagementV1Application using Java 17.0.9 with PID 844 (G:\CODE\CodingShuttleCode\projects\CollegeManagementV1\target\classes started by NIKHIL in G:\CODE\CodingShuttleCode\projects\CollegeManagementV1)
+2024-08-12 21:45:34 [main] INFO  c.c.CollegeManagementV1Application - No active profile set, falling back to 1 default profile: "default"
+2024-08-12 21:45:37 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-12 21:45:37 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 180 ms. Found 4 JPA repository interfaces.
+2024-08-12 21:45:38 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8090 (http)
+2024-08-12 21:45:38 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8090"]
+2024-08-12 21:45:38 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-08-12 21:45:38 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-12 21:45:39 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-08-12 21:45:39 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3964 ms
+2024-08-12 21:45:39 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-12 21:45:39 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-08-12 21:45:39 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-08-12 21:45:40 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-12 21:45:40 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-08-12 21:45:40 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@14dbfdb1
+2024-08-12 21:45:40 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-08-12 21:45:44 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-12 21:45:44 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-12 21:45:44 [main] INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-08-12 21:45:46 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-12 21:45:48 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8090"]
+2024-08-12 21:45:48 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2024-08-12 21:45:48 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-08-12 21:45:48 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-08-12 21:45:48 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-08-12 21:45:48 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-08-12 21:45:48 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8090 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8090 or configure this application to listen on another port.
+
+2024-08-12 21:46:12 [main] INFO  c.c.CollegeManagementV1Application - Starting CollegeManagementV1Application using Java 17.0.9 with PID 4408 (G:\CODE\CodingShuttleCode\projects\CollegeManagementV1\target\classes started by NIKHIL in G:\CODE\CodingShuttleCode\projects\CollegeManagementV1)
+2024-08-12 21:46:12 [main] INFO  c.c.CollegeManagementV1Application - No active profile set, falling back to 1 default profile: "default"
+2024-08-12 21:46:14 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-12 21:46:15 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 168 ms. Found 4 JPA repository interfaces.
+2024-08-12 21:46:16 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-08-12 21:46:16 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-08-12 21:46:16 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-08-12 21:46:16 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-12 21:46:16 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-08-12 21:46:16 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3999 ms
+2024-08-12 21:46:17 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-12 21:46:17 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-08-12 21:46:17 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-08-12 21:46:18 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-12 21:46:18 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-08-12 21:46:18 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@14dbfdb1
+2024-08-12 21:46:18 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-08-12 21:46:21 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-12 21:46:21 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-12 21:46:21 [main] INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-08-12 21:46:24 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-12 21:46:25 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-08-12 21:46:25 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2024-08-12 21:46:25 [main] INFO  c.c.CollegeManagementV1Application - Started CollegeManagementV1Application in 13.625 seconds (process running for 14.967)
+2024-08-12 21:46:38 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-12 21:46:38 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-08-12 21:46:39 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 8 ms
+2024-08-12 21:46:39 [http-nio-8080-exec-1] INFO  c.c.Controller.CollegeController - ---------------- get added student ------------ 
+2024-08-12 21:46:39 [http-nio-8080-exec-1] DEBUG org.hibernate.SQL - select s1_0.id,a1_0.id,a1_0.fees,s1_0.name from students s1_0 left join admission_record a1_0 on s1_0.id=a1_0.id where s1_0.id=?
+2024-08-13 00:47:18 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3h29s537ms621µs900ns).
+2024-08-13 19:24:43 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=21h37m59s636ms552µs500ns).
+2024-08-13 19:25:00 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=18h38m92ms403µs300ns).
