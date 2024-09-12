@@ -37,6 +37,7 @@ public class ProffeesorServiceImpl implements ProffesorService{
 					
 					subjectsDTO.setId(subjectsRepo.findIdByTitle(subjectsDTO.getTitle()));
 				}
+				
 			}
 		}
 		

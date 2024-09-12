@@ -51,6 +51,21 @@ public class StudentServiceImpl implements StudentService {
 
 	@Override
 	public StudentsDTO getStudentInfo(Long studentId) {
+			
+		Integer marks = 10;
+		System.out.println(marks);
+		
+//		int num = subjectsRepo.UpdateByTitle(marks);
+//		ArrayList<String> subList = new ArrayList<String>();
+//		subList.add("Chemistry");
+//		subList.add("Geography");
+//		subList.add("Physice");
+//		
+//		ArrayList<Subjects> subjectslist = subjectsRepo.findByTitleInAndStdcount(subList,"1");
+//		subjectslist.stream().forEach(Subject -> Subject.setStdcount("96"));
+//		subjectsRepo.saveAll(subjectslist);
+			
+//		System.out.println("update count >>>>>>>>>> "+num);
 		Students student = studentRepo.findById(studentId).orElseThrow(
 				() -> new ResourceNotFoundException( "Student not fountd withh id : "+studentId,studentId));
 		log.info("student admission >>> "+ student.getAdmissiom().getId());
